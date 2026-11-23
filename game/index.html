@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ember Duel — Asha vs Bram</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin: 0; padding: 0; background: #14161c; min-height: 100%; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: system-ui, sans-serif; color: #f0e6cc; }
+  #wrap { width: min(1280px, 100vw); }
+  canvas { display: block; width: 100%; height: auto; background: #20242e; }
+  #help { max-width: 1280px; padding: 10px 16px 18px; font-size: 14px; line-height: 1.5; color: #b8ad90; box-sizing: border-box; }
+  #help b { color: #ffd166; }
+  #help code { color: #fff; background: rgba(255,255,255,0.1); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+</div>
+<div id="help">
+  <b>Ember Duel</b> — Asha, the Ember Mage vs Bram, the Tidecaller. Both start at 30 HP.
+  Each round play one card: <b>Ember beats Thorn, Thorn beats Tide, Tide beats Ember</b> — element
+  advantage wins no matter the power; same element, higher power wins; exact tie is a clash and both draw.
+  The winner deals damage equal to its power. <b>Heal</b> restores +4 HP instead of dealing damage,
+  <b>Shield</b> blocks the next damage, <b>Surge</b> doubles power this round. First to 0 HP loses.
+  Controls: click a card or press <code>1–5</code> to play, <code>Enter</code> start / next,
+  <code>R</code> restart, <code>M</code> mute. Staged screenshots: <code>?shot=title|play|win|loss&amp;seed=1</code>.
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
