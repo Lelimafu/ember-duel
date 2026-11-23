@@ -1,6 +1,8 @@
 # 🔥 Ember Duel
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/best-card-game-20261122-1826)
+[![make.fun · best-card-game-20261122-1826](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![rank](https://make.fun/badge/best-card-game-20261122-1826/Lelimafu/ember-duel/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![reward](https://make.fun/badge/best-card-game-20261122-1826/Lelimafu/ember-duel/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
 
 An original 1-vs-1 card battler built for the [make.fun "Make the best card game" bounty](https://make.fun/bounty/best-card-game-20261122-1826). Two rival spark-mages duel with a 36-card deck of Ember, Tide and Thorn cards. No clones, no external assets — every card, sound and pixel is drawn or synthesised in code.
 
